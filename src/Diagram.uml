@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>All.Data</OriginalElement>
+  <nodes>
+    <node x="443.20258763952916" y="848.8276647970221">All.DisplayWifRadio</node>
+    <node x="648.2025876395292" y="848.8276647970221">All.DisplaySmsWriter</node>
+    <node x="-196.63799161437115" y="838.3663844268896">All.WifiRadio</node>
+    <node x="-244.4827332426284" y="1006.4612566293654">All.WifiData</node>
+    <node x="-443.5474479716217" y="1003.8319458752135">All.SmsWriterData</node>
+    <node x="191.20258763952916" y="848.8276647970221">All.DisplayIcreCreamReport</node>
+    <node x="-85.6206061531642" y="1003.8319458752139">All.IceCreamReportData</node>
+    <node x="-207.92669937385517" y="1175.6294057172192">All.Data</node>
+    <node x="393.20258763952916" y="724.8276647970221">All.Observer</node>
+    <node x="-33.137991614371145" y="838.3663844268896">All.IceCreamReport</node>
+    <node x="0.0" y="486.0">All.ObserverManager</node>
+    <node x="-260.6379916143711" y="748.8663844268896">All.Observable</node>
+    <node x="-383.1379916143711" y="838.3663844268896">All.SMSWriter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="All.IceCreamReport" target="All.Observable">
+      <point x="0.0" y="-25.5" />
+      <point x="58.362008385628855" y="824.8663844268896" />
+      <point x="-33.97132494770446" y="824.8663844268896" />
+      <point x="90.66666666666669" y="25.5" />
+    </edge>
+    <edge source="All.DisplaySmsWriter" target="All.Observer">
+      <point x="0.0" y="-37.0" />
+      <point x="745.2025876395292" y="823.8276647970221" />
+      <point x="630.7025876395292" y="823.8276647970221" />
+      <point x="95.0" y="37.0" />
+    </edge>
+    <edge source="All.Observable" target="All.ObserverManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="All.Observer" target="All.ObserverManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="All.DisplayIcreCreamReport" target="All.Observer">
+      <point x="0.0" y="-37.0" />
+      <point x="307.20258763952916" y="823.8276647970221" />
+      <point x="440.70258763952916" y="823.8276647970221" />
+      <point x="-95.0" y="37.0" />
+    </edge>
+    <edge source="All.SMSWriter" target="All.Observable">
+      <point x="0.0" y="-25.5" />
+      <point x="-307.6379916143711" y="824.8663844268896" />
+      <point x="-215.30465828103783" y="824.8663844268896" />
+      <point x="-90.66666666666669" y="25.5" />
+    </edge>
+    <edge source="All.SMSWriter" target="All.SmsWriterData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="All.DisplayWifRadio" target="All.Observer">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="All.IceCreamReport" target="All.IceCreamReportData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="All.ObserverManager" target="All.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="All.SmsWriterData" target="All.Data">
+      <point x="0.0" y="-37.0" />
+      <point x="-176.80604573915696" y="1118.1854158452254" />
+      <point x="-154.40024863770753" y="1144.6974931399116" />
+      <point x="50.33333333333337" y="37.0" />
+    </edge>
+    <edge source="All.IceCreamReportData" target="All.Data">
+      <point x="0.0" y="-37.0" />
+      <point x="-14.79668745864717" y="1130.2781917684056" />
+      <point x="-31.607978106306746" y="1153.53485223814" />
+      <point x="-50.33333333333334" y="37.0" />
+    </edge>
+    <edge source="All.WifiRadio" target="All.Observable">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="All.WifiRadio" target="All.WifiData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="All.WifiData" target="All.Data">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7920918367346939" x="233.02093397745568" y="928.0" />
+  <SelectedNodes>
+    <node>All.Data</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
