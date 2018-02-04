@@ -1,4 +1,4 @@
-package Observables;
+package ObserverManager.Tests.Observables;
 
 import ObserverManager.Data;
 import ObserverManager.Observable;

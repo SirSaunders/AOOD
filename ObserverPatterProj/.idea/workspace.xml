@@ -15,93 +15,182 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IceCreamReport.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/All/IceCreamReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DisplayWifRadio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/DisplayWifRadio.java">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplayWifRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WifiData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/WifiData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisplaySmsWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/DisplaySmsWriter.java">
+      <file leaf-file-name="JAVA/ObserverManagerAnnotations.Data" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/ObserverManagerAnnotations.Data">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>ObserverManagerAnnotations.Data</OriginalElement>
+              <nodes>
+                <node x="169.75" y="237.0">ObserverManagerAnnotations.Observer</node>
+                <node x="10.5" y="79.0">ObserverManagerAnnotations.Observable</node>
+                <node x="140.41666666666663" y="0.0">java.lang.annotation.Annotation</node>
+                <node x="145.5" y="79.0">java.lang.annotation.Target</node>
+                <node x="252.5" y="79.0">ObserverManagerAnnotations.Data</node>
+                <node x="84.92999999999998" y="158.0">java.lang.annotation.Retention</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="ObserverManagerAnnotations.Observer" target="java.lang.annotation.Retention">
+                  <point x="-34.0" y="-14.5" />
+                  <point x="186.75" y="212.0" />
+                  <point x="137.92999999999998" y="212.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="ObserverManagerAnnotations.Observer" target="java.lang.annotation.Annotation">
+                  <point x="34.0" y="-14.5" />
+                  <point x="254.75" y="212.0" />
+                  <point x="339.0" y="212.0" />
+                  <point x="339.0" y="49.0" />
+                  <point x="243.0166666666666" y="49.0" />
+                  <point x="45.599999999999966" y="14.5" />
+                </edge>
+                <edge source="ObserverManagerAnnotations.Observer" target="java.lang.annotation.Target">
+                  <point x="0.0" y="-14.5" />
+                  <point x="220.75" y="133.0" />
+                  <point x="218.0" y="133.0" />
+                  <point x="29.0" y="14.5" />
+                </edge>
+                <edge source="ObserverManagerAnnotations.Data" target="java.lang.annotation.Annotation">
+                  <point x="0.0" y="-14.5" />
+                  <point x="290.5" y="59.0" />
+                  <point x="220.21666666666664" y="59.0" />
+                  <point x="22.799999999999983" y="14.5" />
+                </edge>
+                <edge source="java.lang.annotation.Target" target="java.lang.annotation.Retention">
+                  <point x="0.0" y="14.5" />
+                  <point x="189.0" y="133.0" />
+                  <point x="173.26333333333332" y="133.0" />
+                  <point x="35.33333333333334" y="-14.5" />
+                </edge>
+                <edge source="java.lang.annotation.Target" target="java.lang.annotation.Annotation">
+                  <point x="0.0" y="-14.5" />
+                  <point x="189.0" y="59.0" />
+                  <point x="197.41666666666663" y="59.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="ObserverManagerAnnotations.Observable" target="java.lang.annotation.Annotation">
+                  <point x="0.0" y="-14.5" />
+                  <point x="68.0" y="59.0" />
+                  <point x="174.61666666666662" y="59.0" />
+                  <point x="-22.80000000000001" y="14.5" />
+                </edge>
+                <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Annotation">
+                  <point x="-35.33333333333334" y="-14.5" />
+                  <point x="102.59666666666664" y="133.0" />
+                  <point x="0.0" y="133.0" />
+                  <point x="0.0" y="49.0" />
+                  <point x="151.81666666666666" y="49.0" />
+                  <point x="-45.599999999999994" y="14.5" />
+                </edge>
+                <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Target">
+                  <point x="0.0" y="-14.5" />
+                  <point x="137.92999999999998" y="133.0" />
+                  <point x="160.0" y="133.0" />
+                  <point x="-29.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-380.5" y="80.5" />
+              <SelectedNodes>
+                <node>ObserverManagerAnnotations.Data</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObserverManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/ObserverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-              <folding />
+            <state relative-caret-position="435">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SmsWriterData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/SmsWriterData.java">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/ObservableData/SmsWriterData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayIcreCreamReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/DisplayIcreCreamReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="IceCreamReportData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/IceCreamReportData.java">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/ObservableData/IceCreamReportData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SMSWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/SMSWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="WifiRadio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/All/WifiRadio.java">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/WifiRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WifiData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/ObservableData/WifiData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IceCreamReport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/IceCreamReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +205,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getIn</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -127,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Data.java" />
         <option value="$PROJECT_DIR$/src/ObserverManager/Observable.java" />
         <option value="$PROJECT_DIR$/src/ObserverManager/ObserverManager.java" />
@@ -154,6 +247,20 @@
         <option value="$PROJECT_DIR$/src/All/WifiData.java" />
         <option value="$PROJECT_DIR$/src/All/DisplayIcreCreamReport.java" />
         <option value="$PROJECT_DIR$/src/All/IceCreamReportData.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Data.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Observable.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/ObservableData/SmsWriterData.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplaySmsWriter.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplayWifRadio.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/IceCreamReport.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Observer.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplayIcreCreamReport.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/ObservableData/WifiData.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/ObservableData/IceCreamReportData.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManagerAnnotations/ObserverManager.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManager/Observables/IceCreamReport.java" />
+        <option value="$PROJECT_DIR$/src/ObserverManager/Tests/Observables/IceCreamReport.java" />
       </list>
     </option>
   </component>
@@ -163,7 +270,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="745" />
@@ -191,6 +298,11 @@
               <item name="ObserverPatterProj" type="b2602c69:ProjectViewProjectNode" />
               <item name="ObserverPatterProj" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ObserverPatterProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObserverPatterProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,7 +322,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ObserverManagerAnnotations" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ObserverManager" />
+      <recent name="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/" />
+      <recent name="$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests" />
+      <recent name="$PROJECT_DIR$/src/ObserverManagerAnnotations" />
       <recent name="$PROJECT_DIR$/src/All" />
     </key>
   </component>
@@ -612,6 +731,11 @@
       <arguments />
       <envs />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -635,31 +759,32 @@
       <workItem from="1517693706770" duration="146000" />
       <workItem from="1517697192169" duration="3000" />
       <workItem from="1517697905424" duration="26000" />
-      <workItem from="1517698106985" duration="602000" />
+      <workItem from="1517698106985" duration="5098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5593000" />
+    <option name="totallyTimeSpent" value="10089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="0" width="1922" height="1055" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -673,7 +798,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,219 +815,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/All/WifiData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplaySmsWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/SmsWriterData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplayIcreCreamReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/IceCreamReportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/All/WifiRadio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/IceCreamReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplayWifRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/WifiData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplaySmsWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/SmsWriterData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplayIcreCreamReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/IceCreamReportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/WifiRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/IceCreamReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplayWifRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/WifiData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplaySmsWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/SmsWriterData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/DisplayIcreCreamReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="93" lean-forward="true" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/IceCreamReportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/All/WifiRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -911,13 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -939,13 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverManager/ObserverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -977,21 +882,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observers/DisplaySmsWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observers/DisplaySmsWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="5" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observers/DisplayWifRadio.java">
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observers/DisplayWifRadio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observers/DisplayIcreCreamReport.java">
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observers/DisplayIcreCreamReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="5" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="19" selection-end-column="5" />
@@ -1039,8 +944,8 @@
         <state relative-caret-position="120">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1058,7 +963,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1076,8 +981,8 @@
         <state relative-caret-position="210">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1095,8 +1000,8 @@
         <state relative-caret-position="210">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1328,6 +1233,297 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/SMSWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/ObservableData/SmsWriterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplaySmsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/IceCreamReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplayIcreCreamReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/ObserverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/WifiRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/ObservableData/IceCreamReportData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observables/ObservableData/WifiData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="87" lean-forward="true" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/Tests/Observers/DisplayWifRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ObserverManagerAnnotations.Data">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ObserverManagerAnnotations.Data</OriginalElement>
+          <nodes>
+            <node x="169.75" y="237.0">ObserverManagerAnnotations.Observer</node>
+            <node x="10.5" y="79.0">ObserverManagerAnnotations.Observable</node>
+            <node x="140.41666666666663" y="0.0">java.lang.annotation.Annotation</node>
+            <node x="145.5" y="79.0">java.lang.annotation.Target</node>
+            <node x="252.5" y="79.0">ObserverManagerAnnotations.Data</node>
+            <node x="84.92999999999998" y="158.0">java.lang.annotation.Retention</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ObserverManagerAnnotations.Observer" target="java.lang.annotation.Retention">
+              <point x="-34.0" y="-14.5" />
+              <point x="186.75" y="212.0" />
+              <point x="137.92999999999998" y="212.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ObserverManagerAnnotations.Observer" target="java.lang.annotation.Annotation">
+              <point x="34.0" y="-14.5" />
+              <point x="254.75" y="212.0" />
+              <point x="339.0" y="212.0" />
+              <point x="339.0" y="49.0" />
+              <point x="243.0166666666666" y="49.0" />
+              <point x="45.599999999999966" y="14.5" />
+            </edge>
+            <edge source="ObserverManagerAnnotations.Observer" target="java.lang.annotation.Target">
+              <point x="0.0" y="-14.5" />
+              <point x="220.75" y="133.0" />
+              <point x="218.0" y="133.0" />
+              <point x="29.0" y="14.5" />
+            </edge>
+            <edge source="ObserverManagerAnnotations.Data" target="java.lang.annotation.Annotation">
+              <point x="0.0" y="-14.5" />
+              <point x="290.5" y="59.0" />
+              <point x="220.21666666666664" y="59.0" />
+              <point x="22.799999999999983" y="14.5" />
+            </edge>
+            <edge source="java.lang.annotation.Target" target="java.lang.annotation.Retention">
+              <point x="0.0" y="14.5" />
+              <point x="189.0" y="133.0" />
+              <point x="173.26333333333332" y="133.0" />
+              <point x="35.33333333333334" y="-14.5" />
+            </edge>
+            <edge source="java.lang.annotation.Target" target="java.lang.annotation.Annotation">
+              <point x="0.0" y="-14.5" />
+              <point x="189.0" y="59.0" />
+              <point x="197.41666666666663" y="59.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ObserverManagerAnnotations.Observable" target="java.lang.annotation.Annotation">
+              <point x="0.0" y="-14.5" />
+              <point x="68.0" y="59.0" />
+              <point x="174.61666666666662" y="59.0" />
+              <point x="-22.80000000000001" y="14.5" />
+            </edge>
+            <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Annotation">
+              <point x="-35.33333333333334" y="-14.5" />
+              <point x="102.59666666666664" y="133.0" />
+              <point x="0.0" y="133.0" />
+              <point x="0.0" y="49.0" />
+              <point x="151.81666666666666" y="49.0" />
+              <point x="-45.599999999999994" y="14.5" />
+            </edge>
+            <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Target">
+              <point x="0.0" y="-14.5" />
+              <point x="137.92999999999998" y="133.0" />
+              <point x="160.0" y="133.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-380.5" y="80.5" />
+          <SelectedNodes>
+            <node>ObserverManagerAnnotations.Data</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManagerAnnotations/ObserverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/ObservableData/SmsWriterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/ObservableData/IceCreamReportData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/SMSWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/WifiRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/ObservableData/WifiData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObserverManager/Tests/Observables/IceCreamReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
