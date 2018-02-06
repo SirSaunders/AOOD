@@ -1,17 +1,17 @@
 package v1.ObserverManager;
 
+import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Created by johnathansaunders on 2/1/18.
  */
 public class ObserverManager {
-     List<Observer> observers;
+    HashMap<String, LinkedList<Observer>>  observers;
     static private ObserverManager observerManager;
 
     private ObserverManager(){
-    observers = new LinkedList<Observer>();
+    observers = new HashMap<String, LinkedList<Observer>>();
     }
 
   synchronized static public ObserverManager getInstance(){
@@ -20,17 +20,41 @@ public class ObserverManager {
         }
         return observerManager;
     }
-    public void addObserver(Observer observer){
-        observers.add(observer);
+
+    /**
+     * @param observer
+     * @param subscriptionCode
+     */
+    public void addObserver(Observer observer,String subscriptionCode){
+      LinkedList<Observer> observersList = observers.get(subscriptionCode);
+        if(observersList == null) {
+            observersList = new LinkedList<Observer>();
+            observers.put(subscriptionCode,observersList);
+        }
+        observersList.add(observer);
+
     }
     public void removeObserver(Observer observer){
-        observers.remove(observer);
-    }
-    public void notifyAllUpdate(Data data){
-        for (Observer observer:observers) {
-            if(observer.getListnerCode() != null && data.dataCode != null && observer.getListnerCode().equals(data.dataCode)) {
-                observer.notifyUpdated(data);
+        for(String key: observers.keySet()) {
+            LinkedList<Observer> observersList = observers.get(key);
+            if(observersList !=null) {
+                observersList.remove(observer);
             }
+        }
+    }
+
+    /**
+     * checks if any observers are subscribed, if they are then it will only notified those subscribed
+     * @param data
+     */
+    public void notifyAllUpdate(Data data){
+        if(data.dataCode != null) {
+            LinkedList<Observer> observersList =observers.get(data.dataCode);
+                if(observersList != null) {
+                    for (Observer observer : observersList) {
+                        observer.notifyUpdated(data);
+                    }
+                }
         }
     }
 }

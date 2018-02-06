@@ -19,11 +19,7 @@ public class DisplaySmsWriter  {
 
             }
 
-            @Override
-            public String getListnerCode() {
-                return "sms_writer";
-            }
-        });
+        },"sms_writer");
     }
 
 

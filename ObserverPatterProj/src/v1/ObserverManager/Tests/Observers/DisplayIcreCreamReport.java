@@ -18,11 +18,7 @@ public class DisplayIcreCreamReport {
                 System.out.println(data.getDataCode());
             }
 
-            @Override
-            public String getListnerCode() {
-                return "ice_cream_report";
-            }
-        });
+        },"ice_cream_report");
     }
 
 

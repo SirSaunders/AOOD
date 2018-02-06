@@ -17,11 +17,7 @@ public class DisplayWifRadio  {
                 System.out.println(data.getDataCode());
             }
 
-            @Override
-            public String getListnerCode() {
-                return "wifi_radio";
-            }
-        });
+        },"wifi_radio");
     }
 
 
