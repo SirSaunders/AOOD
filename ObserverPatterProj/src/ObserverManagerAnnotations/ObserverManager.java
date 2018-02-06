@@ -23,17 +23,5 @@ public class ObserverManager {
         }
         return observerManager;
     }
-      public void notifyAllUpdata(Data data){
-        for (Method m : Observer.class.getMethods()) {
-            Observer mXY = (Observer)m.getAnnotation(Observer.class);
-                    try {
-                        m.invoke(data);
-                    } catch (IllegalAccessException e) {
-                        //do nothing;
-                    } catch (InvocationTargetException o) {
-                        //do nothing;
-                    }
 
-        }
-    }
 }
