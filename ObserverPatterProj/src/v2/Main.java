@@ -1,5 +1,7 @@
 package v2;
 
+import v2.Tests.Test;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -10,11 +12,6 @@ public class Main {
          //need to make a class using the topic publishers and instantiate that
          //need to add them to the v2.InformationNetwork and then booyah its hooked up
 
-         InformationNetwork net = new InformationNetwork();
-         WeatherData data = new WeatherData();
-         WeatherDisplay observer = new WeatherDisplay();
-         net.add(data);
-         net.add(observer);
-         data.publish();
+        Test.start_test();
     }
 }
