@@ -84,12 +84,7 @@ public class InformationNetwork {
 
             subscribers.forEach((func, method) -> {
                 //get the input type of our function
-                Class existingFuncDataType =
-                        (Class)
-                                ((ParameterizedType)
-                                        func.getClass()
-                                                .getGenericSuperclass())
-                                        .getActualTypeArguments()[0];
+                Class existingFuncDataType = method.getParameterTypes()[0];
                 String methodCategory = method.getAnnotation(Subscriber.class).topicCategory();
 
                 //if both the data type and the category match this new topic,
