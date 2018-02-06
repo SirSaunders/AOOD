@@ -11,6 +11,7 @@ import v1.ObserverManager.ObserverManager;
 public class DisplayIcreCreamReport {
 
     public DisplayIcreCreamReport() {
+        //add observer to observermanager
         ObserverManager.getInstance().addObserver(new Observer() {
             @Override
             public void notifyUpdated(Data data) {

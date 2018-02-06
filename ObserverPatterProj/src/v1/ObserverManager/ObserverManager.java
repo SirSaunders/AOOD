@@ -28,7 +28,7 @@ public class ObserverManager {
     }
     public void notifyAllUpdate(Data data){
         for (Observer observer:observers) {
-            if(observer.getListnerCode().equals(data.dataCode)) {
+            if(observer.getListnerCode() != null && data.dataCode != null && observer.getListnerCode().equals(data.dataCode)) {
                 observer.notifyUpdated(data);
             }
         }
